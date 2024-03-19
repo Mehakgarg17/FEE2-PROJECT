@@ -123,41 +123,42 @@ section{
     margin-bottom: 35px;
 }
 h1.booking {
+    margin-top: 90px;
     color: #ffa343;
     text-align: center;
 }
-.background-imagee {
-    position:relative;
+/* .background-imagee {
+    margin-top: 10px;
     width: 100vw;
-    height: 100%;
+    height: 100vh;
     margin-bottom: 50px;
     background-image: url("bgg.jpg");
-    background-repeat: no-repeat;
     background-size: cover;
     background-color: black;
     z-index: -1;
-}
+} */
 .container2 {
-    width: 500px;
+    position: relative;
+    width: 100%;
     margin: 0 auto 0;
     padding: 50px;
     background-size: cover;
     background-size: 95% 100%;
     background-repeat: no-repeat;
+    background-image: url("bgg.jpg");
+    display: flex;
+    justify-content: center;
     background-color: rgba(0, 0, 0, 0.7);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     z-index: 1;
-    position: relative;
-}
-form input:active{
-    border-color: #e8e8e8;
 }
 div.elem-group {
+    width: 570px;
     margin: 5px 0;
     color: antiquewhite;
 }
 div.elem-group.inlined {
-    width: 24%;
+    width: 136.7px;
     display: inline-block;
     float: left;
     margin-left: 1%;
@@ -518,6 +519,8 @@ ul li a:hover{
     display:block;
     object-fit: cover;
     border-radius: 30px;
+    filter: brightness(70%);
+    transition: all .3s cubic-bezier(.499,.05,.55,.95);
 }
 .boxx h6{
     position: absolute;
